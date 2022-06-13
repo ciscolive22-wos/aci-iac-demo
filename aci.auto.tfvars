@@ -9,12 +9,7 @@ epgs = [
     domain_dn  = "uni/phys-phys"
     interfaces = ["topology/pod-1/paths-101/pathep-[eth1/1]", "topology/pod-1/paths-101/pathep-[eth1/2]"]
   },
-  # {
-  #   vlan_id    = "101"
-  #   gw         = "10.1.101.254/24"
-  #   domain_dn  = "uni/phys-phys"
-  #   interfaces = ["topology/pod-1/paths-101/pathep-[eth1/11]", "topology/pod-1/paths-101/pathep-[eth1/12]"]
-  # }
+
 ]
 
 l3_domain = {
